@@ -210,7 +210,7 @@ function appAge() {
 function YsNo() {
   scrollDown();
   $(".chat-content-list").append(
-    '<div class="chat-content-buttons-gender"><div class="chat-content-buttons-gender-block"><span class="chooseGenderM" id="yeas">ДА</span></div><div class="chat-content-buttons-gender-block"><span class="chooseGenderW" id="no">Нет</span></div></div>'
+    '<div class="chat-content-buttons-gender"><div class="chat-content-buttons-gender-block"><span class="chooseGenderM" id="yeas">Да</span></div><div class="chat-content-buttons-gender-block"><span class="chooseGenderW" id="no">Нет</span></div></div>'
   );
   $("#yeas").click(() => {
     $(".chat-content-buttons-gender").css("display", "none");

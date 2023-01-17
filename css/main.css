@@ -4041,10 +4041,18 @@ input[placeholder="Ваше имя"] {
   
   .sendButton {
     flex: 0 0 100%;
+    max-width: 300px;
+    padding: 10px 0;
     background: white;
     border: 2px solid #db7093;
     color: black;
     text-align: center;
+    transition: all 0.3s;
+  }
+
+  .sendButton:hover {
+    background: #db7093;
+    color: white;
   }
 
   @media (max-width: 520px) {
