@@ -2099,7 +2099,7 @@ img {
 }
 @media (max-height: 760px) {
   .about__info > ul > li:nth-child(4) {
-    display: none;
+/*     display: none; */
   }
 }
 @media (max-height: 680px) {
